@@ -1,0 +1,6 @@
+number = int(input("enter the number that is to be translated to bianary"))
+binary_value = bin(number)
+print("the binary number is: ", str(binary_value))
+string = str(input("enter a string")) 
+binary_val = ''.join(format(ord(k), 'b') for k in string) 
+print("The binary number is : ", str(binary_val)) 
